@@ -1,0 +1,75 @@
+{
+  "ou": {
+    "name": "Osmania University",
+    "shortName": "OU",
+    "gradingScale": {
+      "O": 10,
+      "A": 9,
+      "B": 8,
+      "C": 7,
+      "D": 6,
+      "E": 5,
+      "F": 0,
+      "Ab": 0
+    },
+    "programs": {
+      "mca": {
+        "name": "MCA",
+        "semesters": [
+          {
+            "id": 1,
+            "name": "Semester 1",
+            "subjects": [
+              { "id": "mca101", "name": "Mathematical Foundations of Computer Science", "credits": 4 },
+              { "id": "mca102", "name": "C Programming and Data Structures", "credits": 4 },
+              { "id": "mca103", "name": "Computer Organization", "credits": 4 },
+              { "id": "mca104", "name": "Operating Systems", "credits": 4 },
+              { "id": "mca105", "name": "Probability and Statistics", "credits": 3 },
+              { "id": "mca106", "name": "C Programming Lab", "credits": 2 },
+              { "id": "mca107", "name": "Operating Systems Lab", "credits": 2 },
+              { "id": "mca108", "name": "IT Workshop", "credits": 1 }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Semester 2",
+            "subjects": [
+              { "id": "mca201", "name": "Object Oriented Programming using Java", "credits": 4 },
+              { "id": "mca202", "name": "Database Management Systems", "credits": 4 },
+              { "id": "mca203", "name": "Software Engineering", "credits": 4 },
+              { "id": "mca204", "name": "Design and Analysis of Algorithms", "credits": 4 },
+              { "id": "mca205", "name": "Artificial Intelligence", "credits": 3 },
+              { "id": "mca206", "name": "Java Programming Lab", "credits": 2 },
+              { "id": "mca207", "name": "DBMS Lab", "credits": 2 },
+              { "id": "mca208", "name": "Software Engineering Lab", "credits": 1 }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "Semester 3",
+            "subjects": [
+              { "id": "mca301", "name": "Computer Networks", "credits": 4 },
+              { "id": "mca302", "name": "Web Technologies", "credits": 4 },
+              { "id": "mca303", "name": "Machine Learning", "credits": 4 },
+              { "id": "mca304", "name": "Elective - I", "credits": 3 },
+              { "id": "mca305", "name": "Elective - II", "credits": 3 },
+              { "id": "mca306", "name": "Computer Networks Lab", "credits": 2 },
+              { "id": "mca307", "name": "Web Technologies Lab", "credits": 2 },
+              { "id": "mca308", "name": "Mini Project", "credits": 2 }
+            ]
+          },
+          {
+            "id": 4,
+            "name": "Semester 4",
+            "subjects": [
+              { "id": "mca401", "name": "Information Security", "credits": 4 },
+              { "id": "mca402", "name": "Elective - III", "credits": 3 },
+              { "id": "mca403", "name": "Elective - IV", "credits": 3 },
+              { "id": "mca404", "name": "Major Project", "credits": 14 }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
