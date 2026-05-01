@@ -40,8 +40,12 @@ export default function OUHome() {
 
         <div className="bg-white rounded-2xl shadow-sm border border-gray-200 p-6 sm:p-8 mb-10 sm:mb-12">
           <div className="flex flex-col sm:flex-row items-center sm:items-start space-y-4 sm:space-y-0 sm:space-x-6">
-            <div className="h-20 w-20 sm:h-24 sm:w-24 bg-blue-100 rounded-2xl flex items-center justify-center flex-shrink-0 text-blue-600 text-2xl sm:text-3xl font-bold">
-              OU
+            <div className="h-20 w-20 sm:h-24 sm:w-24 bg-white rounded-2xl flex items-center justify-center flex-shrink-0 overflow-hidden border border-gray-100 shadow-sm p-2">
+              <img 
+                src="https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/Osmania_University_Logo.svg/1200px-Osmania_University_Logo.svg.png" 
+                alt="Osmania University Logo" 
+                className="w-full h-full object-contain"
+              />
             </div>
             <div className="text-center sm:text-left">
               <h1 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-2">Osmania University</h1>

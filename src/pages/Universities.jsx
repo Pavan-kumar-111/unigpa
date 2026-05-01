@@ -7,7 +7,8 @@ export default function Universities() {
       name: "Osmania University",
       shortName: "OU",
       description: "Calculate SGPA and CGPA for MCA, MBA, and Degree programs under Osmania University's grading system.",
-      link: "/universities/ou"
+      link: "/universities/ou",
+      logoUrl: "https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/Osmania_University_Logo.svg/1200px-Osmania_University_Logo.svg.png"
     }
   ];
 

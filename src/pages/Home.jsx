@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Calculator, Award, Percent } from 'lucide-react';
 import UniversityCard from '../components/UniversityCard';
+import ouLogo from "../assets/ou-logo.png";
 
 export default function Home() {
   return (
@@ -14,8 +15,8 @@ export default function Home() {
           <p className="max-w-2xl mx-auto text-base sm:text-lg lg:text-xl text-gray-600 mb-8 sm:mb-10">
             Fast, accurate, and easy-to-use academic calculator designed specifically for your university's grading system.
           </p>
-          <Link 
-            to="/universities" 
+          <Link
+            to="/universities"
             className="inline-flex w-full sm:w-auto items-center justify-center px-6 py-3 sm:px-8 sm:py-4 text-base font-medium text-white bg-blue-600 hover:bg-blue-700 rounded-full shadow-lg hover:shadow-xl transition-all"
           >
             Select University
@@ -57,11 +58,12 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-center text-gray-900 mb-8 sm:mb-12">Popular Universities</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
-            <UniversityCard 
-              name="Osmania University" 
-              shortName="OU" 
+            <UniversityCard
+              name="Osmania University"
+              shortName="OU"
               description="Calculate SGPA and CGPA for MCA, MBA, and Degree programs under Osmania University."
               link="/universities/ou"
+              logoUrl={ouLogo}
             />
             {/* Placeholders for future */}
             <div className="bg-gray-100 rounded-2xl shadow-sm border border-gray-200 p-6 opacity-60 flex flex-col items-center justify-center text-center min-h-[200px]">
